@@ -1,0 +1,123 @@
+#: ../cool-accessibility.php:65
+msgstr "Saltar al contenido de la página"
+msgstr "דלג לתוכן העמוד"
+
+#: ../cool-accessibility.php:84
+msgstr "Alternar el panel de accesibilidad"
+msgstr "הצגת תפריט נגישות"
+
+#: ../cool-accessibility.php:95
+msgstr "Configuración de accesibilidad"
+msgstr "הגדרות נגישות"
+
+#: ../cool-accessibility.php:97
+msgstr "Panel de accesibilidad superior"
+msgstr "תפריט נגישות עליון"
+
+#: ../cool-accessibility.php:98
+msgstr "Panel de accesibilidad correcto"
+msgstr "תפריט נגישות ימני"
+
+#: ../cool-accessibility.php:99
+msgstr "Panel de accesibilidad inferior"
+msgstr "תפריט נגישות תחתון"
+
+#: ../cool-accessibility.php:100
+msgstr "Panel de accesibilidad izquierdo"
+msgstr "תפריט נגישות שמאלי"
+
+#: ../cool-accessibility.php:101
+msgstr "Muestra el panel de accesibilidad de accesos directos de teclado"
+msgstr "הצגת קיצורי מקלדת"
+
+#: ../cool-accessibility.php:102
+msgstr "Alternar el panel de accesibilidad de accesos directos de teclado"
+msgstr "הפעלת קיצורי מקלדת"
+
+#: ../cool-accessibility.php:103
+msgstr "Declaración de accesibilidad"
+msgstr "הצגת הצהרת נגישות"
+
+msgstr "Restablecer toda la accesibilidad"
+msgstr "איפוס של הנגישות"
+
+msgstr "Cambiar el tamaño de la fuente"
+msgstr "שנה גודל פונט"
+
+msgstr "Aumentar tamaño de fuente"
+msgstr "הגדל גודל פונט"
+
+msgstr "Restablecer tamaño de fuente"
+msgstr "איפוס גודל פונט"
+
+msgstr "Disminuir tamaño de fuente"
+msgstr "הקטן גודל פונט"
+
+msgstr "Cambiar altura de línea"
+msgstr "שנה גובה שורה"
+
+msgstr "Aumentar la altura de la línea"
+msgstr "הגדל ריווח שורות"
+
+msgstr "Restablecer altura de línea"
+msgstr "איפוס ריווח שורות"
+
+msgstr "Disminuir la altura de la línea"
+msgstr "הקטן ריווח שורות"
+
+msgstr "Cambiar el espaciado entre letras"
+msgstr "שנה ריווח אותיות"
+
+msgstr "Aumentar el espacio entre letras"
+msgstr "הגדל ריווח אותיות"
+
+msgstr "Restablecer espacio entre letras"
+msgstr "איפוס ריווח אותיות"
+
+msgstr "Disminuir el espaciado entre letras"
+msgstr "הקטן ריווח אותיות"
+
+msgstr "Cambiar el espaciado entre palabras"
+msgstr "שנה ריווח מילים"
+
+msgstr "Aumentar el espaciado entre palabras"
+msgstr "הגדל ריווח מילים"
+
+msgstr "Restablecer el espaciado de palabras"
+msgstr "איפוס ריווח מילים"
+
+msgstr "Disminuir el espaciado de palabras"
+msgstr "הקטן ריווח מילים"
+
+msgstr "Fuente legible"
+msgstr "גופן קריא"
+
+msgstr "Resaltar títulos"
+msgstr "הדגשת כותרות"
+
+msgstr "Resaltar enlaces"
+msgstr "הדגשת קישורים"
+
+msgstr "Zoom de texto"
+msgstr "הצגת חלונית טקסט באיזור הסמן"
+
+msgstr "Invertir colores"
+msgstr "היפוך םבעים"
+
+msgstr "Contraste brillante"
+msgstr "ניגודיות בהירה"
+
+msgstr "Contraste oscuro"
+msgstr "ניגודיות כהה"
+
+msgstr "Navegación por el teclado"
+msgstr "ניווט מקלדת"
+
+msgstr "Gran cursor blanco"
+msgstr "סמן לבן"
+
+msgstr "Cursor negro grande"
+msgstr "סמן שחור"
+
+msgstr "Evitar la animación"
+msgstr "מניעת אנימציה"
