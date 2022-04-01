@@ -787,6 +787,24 @@ a.coolaxs_skip_rtl:hover {
 }
 
 
+/* these 2 are for fade in/out of the zoom icon popup little text window with yllow backround  near the mouse  cursor when mouseover on text or an image*/
+#coolaxs_tail {
+  opacity: 1;
+  transition: opacity 1.2s; 
+}
+#coolaxs_tail.fade {
+  opacity: 0;
+  transition: opacity 1s; 
+}
+/* this is used to fadeout then in between 2 texts */
+#coolaxs_tail.fastfade {
+  opacity: 0.33;
+  transition: opacity 0.66s; 
+}
+
+
+
+
 
 /* יש הפרדה בגלל שיש מקומות שאין להם רקע בכלל ולהם לא נוסיף רקע כמו בתיבות החיפוש ותיבות קלט */
 /* נגישות - ניגודיות בהירה */
@@ -852,21 +870,35 @@ a{
 .coolaxs_readable_font {
     font-family:Arial!important;
 }
-
-
+/* 
+=============================================================================================================
+ THIS WORKS = REMEMBER TO TO CHANGE IN PHP TO USE THIS CSS FILE AND NOT THE MINIFI VERSION IF YOU WANT TO EXPERIMENT
+ =============================================================================================================
+ from : https://developer.mozilla.org/en-US/docs/Web/CSS/url
+ Relative URLs, if used, are relative to the URL of the stylesheet (not to the URL of the web page).
+  =============================================================================================================
+ from https://www.freecodecamp.org/news/how-to-make-a-custom-mouse-cursor-with-css-and-javascript/   I got these url of cursor on the web that helped me fgure out the solution because i now was sure that it works , also I opened the browser dev tools and checked the css of ".coolaxs_big_white_cursor" and found it used the "style_accessibility.min.css" minified version and not this experimental "style_accessibility.css"
+   =============================================================================================================
 .coolaxs_big_white_cursor {
-    cursor:url('/wp-content/plugins/cool-accessibility/icons/cursor_big_white.png'), auto!important;
+     cursor: url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png'), auto;
+     cursor: url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562029/cursor-worm_kij6gi.png'), auto!important;
 }
+*/
+.coolaxs_big_white_cursor {
+    cursor:url('../icons/cursor_big_white.png'), auto!important;
+}
+
 .coolaxs_cursor_big_pointer_white {
-    cursor:url('/wp-content/plugins/cool-accessibility/icons/cursor_big_pointer_white.png') 29 0, pointer!important;
+    cursor:url('../icons/cursor_big_pointer_white.png') 29 0, pointer;
 }
 
 
 .coolaxs_big_black_cursor {
-    cursor:url('/wp-content/plugins/cool-accessibility/icons/cursor_big_black.png'), auto!important;
+    cursor:url('../icons/cursor_big_black.png'), auto!important;
 }
+
 .coolaxs_cursor_big_pointer_black {
-    cursor:url('/wp-content/plugins/cool-accessibility/icons/cursor_big_pointer_black.png') 29 0, pointer!important;
+    cursor:url('../icons/cursor_big_pointer_black.png') 29 0, pointer!important;
 }
 
 /* just for debug - crazy colors and fonts - Jquery assign this class to the body in menu.js for accessibility*/
@@ -937,7 +969,7 @@ a{
 .coolaxs_mobile .COOL_ACCESSIBILITY_top_accessibility_panel .coolaxs_left_mobile_pannel
  {
 	bottom:initial;
-    top:15%;  
+    top:15%;
 }
 
 .coolaxs_mobile .coolaxs_accessibility_panel {
